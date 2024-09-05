@@ -1,0 +1,143 @@
+/* Reseteo de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #0033A0;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #0033A0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #0033A0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #002A80;
+}
+
+footer {
+    background: #0033A0;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.calendar-table th, .calendar-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.calendar-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.calendar-table td {
+    background-color: #fafafa;
+}
+
+.calendar-table td:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.calendar-table .today {
+    background-color: #FFEB3B;
+}
+
+.calendar-table .empty {
+    background-color: #f9f9f9;
+}
